@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=047857&height=200&section=header&text=Noor%20ul%20Huda&fontSize=50&fontColor=ffffff&animation=twinkling" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=047857&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%7C+IT+Graduate;Laravel+%2B+React+Enthusiast;Building+ElevatedCRM;Open+to+Work" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=047857&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%7C+IT+Graduate;Next.js+%2B+Ruby+on+Rails+%2B+PostgreSQL;Laravel+%2B+React+Developer;Open+to+Work" alt="Typing SVG" />
 
 ![Open to Work](https://img.shields.io/badge/Open%20to%20Work-047857?style=for-the-badge&logo=github&logoColor=white)
 
@@ -15,18 +15,20 @@
 
 ## 🧠 Who I Am
 
+Full Stack Developer with hands-on experience building and deploying web applications using Next.js, React, Ruby on Rails, Laravel and PostgreSQL. I build features end to end: frontend interfaces, backend APIs, database design and deployment, with JWT authentication, real-time features and AI integrations.
+
 ```typescript
 const noorUlHuda = {
-  title: "Full Stack Developer | IT Graduate",
+  title: "Full Stack Developer | IT Graduate (BSIT, CGPA 3.59)",
   stack: {
-    frontend: ["HTML", "CSS", "Tailwind CSS", "Bootstrap", "JavaScript", "React"],
-    backend: ["PHP", "Laravel", "MySQL"],
-    tools: ["VS Code", "Git", "GitHub"],
+    frontend: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Bootstrap"],
+    backend: ["Ruby on Rails", "Laravel", "PHP", "REST APIs"],
+    databases: ["PostgreSQL", "MySQL"],
+    ai: ["OpenRouter", "Groq", "OpenAI"],
+    tools: ["Git", "GitHub", "Vercel", "Render", "Neon"],
   },
-  launchedProjects: ["ElevatedCRM"],
-  certifications: [],
-  status: "Actively building & learning",
-  openTo: "Full-time opportunities",
+  experience: ["Software Engineer Intern @ Rstack Labs", "Application Team Member (Intern) @ University IT Department"],
+  status: "Open to Full Stack Developer roles",
 };
 ```
 
@@ -34,21 +36,62 @@ const noorUlHuda = {
 
 ## 🚀 Featured Projects
 
-### ElevatedCRM — A customer relationship management system
+### Agency OS — Agency management platform with AI client briefings
 
 <div align="center">
 
-[![ElevatedCRM](https://github-readme-stats.vercel.app/api/pin/?username=noorulhuda3833-hub&repo=ElevatedCRM&theme=nord&border_color=047857&title_color=047857)](https://github.com/noorulhuda3833-hub/ElevatedCRM)
+[![Agency OS](images/agency-os-cover.webp)](https://agency-os-frontend-fab3emsl0-noorulhuda3833-7673s-projects.vercel.app/)
 
 </div>
 
-| Layer      | Technology                                     |
-|------------|-------------------------------------------------|
-| Frontend   | HTML, CSS, Tailwind CSS, Bootstrap, JavaScript   |
-| Backend    | PHP, Laravel                                     |
-| Database   | MySQL                                            |
+Organize workspaces, companies, clients, notes and briefing documents in one place.
 
-🔗 [Code](https://github.com/noorulhuda3833-hub/ElevatedCRM)
+- JWT authentication with user-scoped authorization, so users only access their own workspaces and client data
+- Client notes with create, edit, delete, file attachments, five note types and real-time updates via Action Cable
+- Six-section AI client briefings generated from saved notes with OpenRouter, with briefing history
+
+| Layer      | Technology                    |
+|------------|-------------------------------|
+| Frontend   | Next.js, React, Tailwind CSS  |
+| Backend    | Ruby on Rails API             |
+| Database   | PostgreSQL (Neon)             |
+| Real-time  | Action Cable                  |
+| AI         | OpenRouter                    |
+| Deployment | Vercel, Render, Neon          |
+
+🔗 [Live Demo](https://agency-os-frontend-fab3emsl0-noorulhuda3833-7673s-projects.vercel.app/)
+
+---
+
+### ElevatedCRM — Final Year Project
+
+<div align="center">
+
+[![ElevatedCRM](images/elevatedcrm-cover.webp)](https://elevatedcrm.onrender.com/)
+
+</div>
+
+A Laravel CRM with Admin and Customer roles for support tickets, customer management, activities, tasks, and reports with KPI charts.
+
+- AI customer-support chatbot built with JavaScript, AJAX, Laravel and the Groq API (Llama 3.3)
+- Authentication, CSRF protection, input validation and server-side API key configuration
+
+| Layer      | Technology                              |
+|------------|------------------------------------------|
+| Frontend   | JavaScript, Tailwind CSS, Bootstrap      |
+| Backend    | PHP, Laravel 10                          |
+| Database   | MySQL                                    |
+| AI         | Groq API (Llama 3.3)                     |
+
+🔗 [Live Demo](https://elevatedcrm.onrender.com/) · [Code](https://github.com/noorulhuda3833-hub/ElevatedCRM)
+
+---
+
+### Weather Dashboard
+
+A city-search weather dashboard with current conditions and a 6-day forecast from the Open-Meteo API, built with Next.js and deployed on Vercel.
+
+🔗 [Live Demo](https://weather-dashboard-blond-seven.vercel.app/)
 
 ---
 
@@ -56,15 +99,15 @@ const noorUlHuda = {
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,js,react" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap" />
 
 **Backend & Database**
 
-<img src="https://skillicons.dev/icons?i=php,laravel,mysql" />
+<img src="https://skillicons.dev/icons?i=ruby,rails,php,laravel,postgres,mysql" />
 
-**Tools**
+**Tools & Deployment**
 
-<img src="https://skillicons.dev/icons?i=vscode,git,github" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel" />
 
 ---
 
@@ -76,16 +119,6 @@ const noorUlHuda = {
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noorulhuda3833-hub&layout=compact&theme=nord&border_color=047857&title_color=047857&text_color=c9d1d9" width="48%" />
 
 <img src="https://streak-stats.demolab.com?user=noorulhuda3833-hub&theme=nord&border=047857&ring=047857&fire=047857" width="90%" />
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=noorulhuda3833-hub&theme=nord&no-frame=true&no-bg=true&row=1&column=6" />
 
 </div>
 
